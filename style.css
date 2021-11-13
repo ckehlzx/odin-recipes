@@ -1,13 +1,35 @@
-p {
+h1 {
     background-color: black;
     color:white;
-}
-
-.head {
     text-align: center;
+}
+
+h4 {
+    text-align: center;
+    font-style: italic;
 
 }
 
-img {height: auto;
-    width: 200px;        
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 200px;     
+}
+
+ul {
+    color: tomato;
+    list-style-position: inside;
+    background-color: khaki;
+    margin: 5px;
+}
+
+ul li {background: lawngreen;
+    margin: 10px;        
+}
+
+ol, ul{font-family: Arial, Helvetica, sans-serif;}
+
+.imgbackground {border: darkolivegreen;
 }
